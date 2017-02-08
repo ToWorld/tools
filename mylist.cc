@@ -1,6 +1,6 @@
 template <class T>
 struct __list_node {
-	typedef void* void_pointerl
+	typedef void* void_pointer;
 	void_pointer prev;
 	void_pointer next;
 	T data;
