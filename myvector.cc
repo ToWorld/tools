@@ -1,10 +1,10 @@
 template <class T, class Alloc = alloc>
 class vector {
 public:
-	typedef T 				value_type;
+	typedef T 		value_type;
 	typedef value_type* 	iterator;
-	typedef value_type&		reference;
-	typedef size_t 			size_type;
+	typedef value_type&	reference;
+	typedef size_t 		size_type;
 protected:
 	iterator	start;
 	iterator	finish;
