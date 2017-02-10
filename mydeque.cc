@@ -1,12 +1,12 @@
 template <class T, class Ref, class Ptr, size_t BufSiz>
 struct __deque_iterator {
 	typedef random_access_iterator_tag iterator_category;
-	typedef T 			value_type;
-	typedef Ptr			pointer;
-	typedef Ref			reference;
+	typedef T 		value_type;
+	typedef Ptr		pointer;
+	typedef Ref		reference;
 	typedef size_t		size_type;
 	typedef ptrdiff_t	difference_type;
-	typedef T**			map_pointer;
+	typedef T**		map_pointer;
 	typedef __deque_iterator self;
 
 	T* cur;
